@@ -20,9 +20,10 @@ function christmas_on() {
 }
 
 let myChristmasTimeInput = document.getElementById("myTimeInput").value;
+let myChristmasTimeInput2 = myChristmasTimeInput * 5;
 
 function christmas_input() {
-    christmas_color = setInterval(sparkling, myChristmasTimeInput);
+    christmas_color2 = setInterval(sparkling, myChristmasTimeInput2);
 
 
 }
@@ -30,5 +31,10 @@ function christmas_input() {
 function christmas_off() {
     clearInterval(christmas_color);
 }
+
+function christmas_off2() {
+    clearInterval(christmas_color2);
+}
+
 
 
